@@ -19,7 +19,7 @@ struct ContentView: View {
     @State private var showHint: Bool = false       // toggle to show JSON example hint
     @State private var hintText = """
     {"Name": "John", "age": 30}
-    """
+    """ // JSON 
     
     enum JsonError: Error {
         case Decoding
